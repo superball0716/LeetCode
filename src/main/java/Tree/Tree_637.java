@@ -97,7 +97,7 @@ public class Tree_637 {
      * LinkedList提供了方法支持队列的行为，并且它实现了Queue接口，因此LinkedList可以用作Queue的一种实现。
      * 
      * offer()和add()将一个元素插入到队尾,查看源码发现offer()的实现即调用add()
-     * peek()和element()都是在移除的情况下返回队头 
+     * peek()和element()都是在不移除的情况下返回队头 
      *     peek()方法在队列为空时返回null，element()会抛出NoSuchElementException异常 
      * poll()和remove()方法将移除并返回队头 
      *     poll()在队列为空时返回null，而remove()会抛出NoSuchElementException异常 
