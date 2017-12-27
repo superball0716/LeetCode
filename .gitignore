@@ -5,3 +5,9 @@
 *.properties
 
 *.properties
+
+*.class
+
+*.properties
+
+*.prefs
