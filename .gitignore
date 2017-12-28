@@ -11,3 +11,5 @@
 *.properties
 
 *.prefs
+
+target/classes/META-INF/maven/com.nju.se.superball/LeetCode/pom.properties
