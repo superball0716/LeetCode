@@ -35,7 +35,7 @@ public class $105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal {
 	}
 
 	private TreeNode helper(int preStart, int inStart, int inEnd, int[] preorder, int[] inorder) {
-		if (preStart >= preorder.length || inStart >= inorder.length || inEnd < inStart) {
+		if (preStart >= preorder.length || inEnd < inStart) {
 			return null;
 		}
 		TreeNode root = new TreeNode(preorder[preStart]);
