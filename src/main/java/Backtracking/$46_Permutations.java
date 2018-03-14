@@ -36,7 +36,7 @@ public class $46_Permutations {
 	List<List<Integer>> res = new ArrayList<List<Integer>>();
 
 	public List<List<Integer>> permute(int[] nums) {
-		List list = new ArrayList<Integer>();
+		List<Integer> list = new ArrayList<Integer>();
 		helper(nums, 0, list);
 		return res;
 	}
