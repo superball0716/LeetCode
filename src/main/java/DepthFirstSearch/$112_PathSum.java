@@ -21,7 +21,7 @@ return true, as there exist a root-to-leaf path 5->4->11->2 which sum is 22.
  * @author superball
  * @time 2018年3月15日上午12:27:14
  */
-public class $122_PathSum {
+public class $112_PathSum {
 
 	public static void main(String[] args) {
 		TreeNode root = new TreeNode(1);
@@ -29,7 +29,7 @@ public class $122_PathSum {
 		TreeNode root_right = new TreeNode(3);
 		root.left = root_left;
 		root.right = root_right;
-		$122_PathSum main = new $122_PathSum();
+		$112_PathSum main = new $112_PathSum();
 		System.out.println(main.hasPathSum(root, 3));
 	}
 
